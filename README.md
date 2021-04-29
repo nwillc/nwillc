@@ -7,5 +7,4 @@ Currently, working in Go and learning that ecosystem.
 - [More Go Generics](https://levelup.gitconnected.com/more-go-generics-bf81938bbd8a?source=rss-c9a4243d7014------2)
 - [A Heap of Go Generics](https://levelup.gitconnected.com/a-heap-of-go-generics-cd20f362a76?source=rss-c9a4243d7014------2)
 - [Vostok 1 Through SpaceX Eyes](https://nwillc.medium.com/vostok-1-through-spacex-eyes-431f757290eb?source=rss-c9a4243d7014------2)
-- [Go: Using a Closure in Place of a Struct](https://levelup.gitconnected.com/go-using-a-closure-in-place-of-a-struct-d56ddd1e55f9?source=rss-c9a4243d7014------2)
 <!-- BLOG-POST-LIST:END -->
