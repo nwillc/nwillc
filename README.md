@@ -6,5 +6,4 @@ Currently, working in Go and learning that ecosystem.
 <!-- BLOG-POST-LIST:START -->
 - [Really, a Movie Review?!](https://nwillc.medium.com/really-a-movie-review-5463d9182769?source=rss-c9a4243d7014------2)
 - [Go: Panic Recover and Return Values](https://levelup.gitconnected.com/go-panic-recover-and-return-values-998ed3dbf464?source=rss-c9a4243d7014------2)
-- [What People Will do…](https://nwillc.medium.com/what-people-will-do-3a078dc52447?source=rss-c9a4243d7014------2)
 <!-- BLOG-POST-LIST:END -->
