@@ -6,5 +6,4 @@ Currently, working in Go and learning that ecosystem.
 <!-- BLOG-POST-LIST:START -->
 - [Thoughts on Live Coding Interviews](https://levelup.gitconnected.com/thoughts-on-live-coding-interviews-ba4700bac106?source=rss-c9a4243d7014------2)
 - [A Crypto Portfolio Status in Go](https://medium.com/geekculture/a-crypto-portfolio-status-in-go-65f3b06c9bf1?source=rss-c9a4243d7014------2)
-- [Cleaning Your Go Code](https://levelup.gitconnected.com/cleaning-your-go-code-863c6f995049?source=rss-c9a4243d7014------2)
 <!-- BLOG-POST-LIST:END -->
