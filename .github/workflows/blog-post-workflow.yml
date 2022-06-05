@@ -1,14 +1,22 @@
-name: Latest blog post workflow
+name: Generate Blog List
+
 on:
+  push:
   schedule: # Run workflow automatically
-    - cron: '0 * * * *' # Runs every hour, on the hour
-  workflow_dispatch: # Run workflow manually (without waiting for the cron to be called), through the Github Actions Workflow page directly
+    - cron: "0 */1 * * *" # Runs every hour, on the hour
+
 jobs:
-  update-readme-with-blog:
-    name: Update this repo's README with latest blog posts
+  medium:
     runs-on: ubuntu-latest
+    name: Fetch and Generate Medium Posts
     steps:
       - uses: actions/checkout@v2
-      - uses: gautamkrishnar/blog-post-workflow@master
+      - name: GitHub Readme Blog Post Action
+        uses: ErrorGamer2000/github-readme-blog-post-action@v1
         with:
-          feed_list: "https://medium.com/feed/@nwillc"
+          feed_uris: "https://medium.com/feed/@nwillc"
+      - name: Commit changed files
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Save Generated Blog Posts
+          skip_checkout: true
