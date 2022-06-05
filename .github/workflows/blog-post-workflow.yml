@@ -14,7 +14,7 @@ jobs:
       - name: GitHub Readme Blog Post Action
         uses: ErrorGamer2000/github-readme-blog-post-action@v1
         with:
-          feed_uris: "https://medium.com/feed/@nwillc"
+          feed_urls: "https://medium.com/feed/@nwillc"
       - name: Commit changed files
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
