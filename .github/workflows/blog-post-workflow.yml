@@ -19,15 +19,20 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
         with:
           template: "templates/README.md.tpl"
-          # Use "profile/README.md" instead on an org profile
           writeTo: "README.md"
-      - name: Push
-        run: | 
-          git config user.name readme-scribe 🤖
-          git config user.email actions@github.com
-          git add .
-          git commit -m "generated profile"
-          git push origin main
+      - name: Commit changed files
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Save Generated Blog Posts
+          skip_checkout: true
+
+      # - name: Push
+      #   run: | 
+      #     git config user.name readme-scribe 🤖
+      #     git config user.email actions@github.com
+      #     git add .
+      #     git commit -m "generated profile"
+      #     git push origin main
 
   # medium:
   #   runs-on: ubuntu-latest
@@ -39,8 +44,4 @@ jobs:
   #       with:
   #         feed_urls: "https://medium.com/feed/@nwillc"
   #         show_feed_data: false
-  #     - name: Commit changed files
-  #       uses: stefanzweifel/git-auto-commit-action@v4
-  #       with:
-  #         commit_message: Save Generated Blog Posts
-  #         skip_checkout: true
+  #     - 
