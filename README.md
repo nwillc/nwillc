@@ -1,10 +1,12 @@
-### nwillc: code monkey
+### nwillc: Code Monkey
 
-Currently, working in Go and learning that ecosystem. 
+Currently, working in Go and learning that ecosystem, focusing on generics. 
 
-Find my articles on [![Medium](https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@nwillc)
+Find my articles on:
 
-#### My recent posts
+[![Medium](https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@nwillc)
+
+#### My Recent Posts
 
 - [Go Generics and Polymorphism, an Idiomatic Wake-up Call](https://medium.com/geekculture/go-generics-a-polymorphism-idiomwake-up-call-6d5fe00aca31?source=rss-c9a4243d7014------2) (2 weeks ago)
 - [Go: When To Adopt 1.18 and Generics](https://levelup.gitconnected.com/go-when-to-adopt-1-18-and-generics-67b55871cfb1?source=rss-c9a4243d7014------2) (3 weeks ago)
