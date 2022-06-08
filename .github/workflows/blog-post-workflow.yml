@@ -25,23 +25,3 @@ jobs:
         with:
           commit_message: Save Generated Blog Posts
           skip_checkout: true
-
-      # - name: Push
-      #   run: | 
-      #     git config user.name readme-scribe 🤖
-      #     git config user.email actions@github.com
-      #     git add .
-      #     git commit -m "generated profile"
-      #     git push origin main
-
-  # medium:
-  #   runs-on: ubuntu-latest
-  #   name: Fetch and Generate Medium Posts
-  #   steps:
-  #     - uses: actions/checkout@v2
-  #     - name: GitHub Readme Blog Post Action
-  #       uses: ErrorGamer2000/github-readme-blog-post-action@v1
-  #       with:
-  #         feed_urls: "https://medium.com/feed/@nwillc"
-  #         show_feed_data: false
-  #     - 
